@@ -17,7 +17,7 @@ st.set_page_config(
 # 2. Load trained model
 # -----------------------------------------
 
-MODEL_PATH = os.path.join("models", "spam_model.pkl")
+MODEL_PATH = os.path.join("model", "spam_model.pkl")
 
 @st.cache_resource
 def load_model():
